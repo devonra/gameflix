@@ -1,0 +1,5 @@
+# Copy to application-local.properties (git-ignored) OR set these as environment variables.
+spring.datasource.username=gameflix
+spring.datasource.password=CHANGE_ME
+# At least 32 bytes. Generate one with:  openssl rand -base64 48
+gameflix.jwt.secret=CHANGE_ME_TO_A_LONG_RANDOM_VALUE
