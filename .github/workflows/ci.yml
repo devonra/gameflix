@@ -39,7 +39,7 @@ jobs:
 
       - name: Build with Maven
         env:
-          SPRING_DATASOURCE_URL: jdbc:mysql://localhost/3306/gameflix
+          SPRING_DATASOURCE_URL: jdbc:mysql://localhost:3306/gameflix
           SPRING_DATASOURCE_USERNAME: gameflix
           SPRING_DATASOURCE_PASSWORD: ${{ secrets.CI_DB_PASSWORD }}
           JWT_SECRET: ${{ secrets.CI_JWT_SECRET }}
